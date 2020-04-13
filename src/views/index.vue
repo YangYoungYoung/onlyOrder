@@ -72,7 +72,7 @@
 
     },
     created() {
-      //这里通过是否有传参判断是否是扫码进入还是路由跳转
+      //这里通过是否有传参判断是否是扫码进入
       var tempShopId = this.$route.query.shopId;
 
       var tempTableId = this.$route.query.tableId;
